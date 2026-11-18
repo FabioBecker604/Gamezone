@@ -1,0 +1,17 @@
+# Arquivos temporários
+*.log
+*.tmp
+
+# Configurações locais
+.env
+.env.*
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Backups
+*.bak
+
+# Configuração local do banco de dados
+config/conexao.php
