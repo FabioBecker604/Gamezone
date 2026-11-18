@@ -20,8 +20,9 @@ A GameZone é uma loja virtual de jogos desenvolvida como projeto do curso Técn
 
 ## Tecnologias utilizadas
 
-- HTML
-- CSS
+- HTML5
+- CSS3
+- Bootstrap 5.3.3
 - PHP
 - MySQL
 - XAMPP
