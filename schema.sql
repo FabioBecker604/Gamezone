@@ -97,3 +97,71 @@ INSERT INTO categorias (nome) VALUES
 ('Corrida'),
 ('Esportes'),
 ('Tiro');
+
+-- Produtos iniciais para teste
+INSERT INTO produtos
+(categoria_id, nome, descricao, preco, imagem, estoque)
+VALUES
+(8, 'Call of Duty Black Ops 7',
+ 'Jogo de tiro e ação da franquia Call of Duty.',
+ 299.90, 'codblackops7.jpg', 10),
+
+(4, 'Cyberpunk 2077',
+ 'RPG de mundo aberto em um futuro tecnológico.',
+ 199.90, 'cyberpunk2077.jpg', 10),
+
+(7, 'EA Sports FC 27',
+ 'Jogo de futebol com clubes e competições.',
+ 299.90, 'eafc27.jpg', 10),
+
+(4, 'Elden Ring',
+ 'RPG de fantasia em um vasto mundo aberto.',
+ 249.90, 'eldenring.jpg', 10),
+
+(1, 'God of War Ragnarök',
+ 'Aventura de ação na mitologia nórdica.',
+ 249.90, 'godofwar.jpg', 10),
+
+(6, 'Gran Turismo 7',
+ 'Simulador de corrida com diversos carros.',
+ 249.90, 'granturismo7.jpg', 10),
+
+(5, 'Mortal Kombat 1',
+ 'Jogo de luta com personagens clássicos.',
+ 199.90, 'mk1.jpg', 10),
+
+(7, 'NBA 2K27',
+ 'Simulador de basquete.',
+ 299.90, 'nba2k27.jpg', 10),
+
+(2, 'Red Dead Redemption 2',
+ 'Aventura de mundo aberto no Velho Oeste.',
+ 199.90, 'rdr2.jpg', 10),
+
+(3, 'Resident Evil 4 Remake',
+ 'Jogo de terror e sobrevivência.',
+ 179.90, 're4.jpg', 10),
+
+(3, 'Resident Evil Requiem',
+ 'Nova experiência de terror e sobrevivência.',
+ 299.90, 'requiem.jpg', 10),
+
+(1, 'Marvel Spider-Man',
+ 'Aventura de ação com o Homem-Aranha.',
+ 199.90, 'spiderman.jpg', 10),
+
+(5, 'Street Fighter 6',
+ 'Jogo de luta da franquia Street Fighter.',
+ 179.90, 'streetfighter6.jpg', 10),
+
+(3, 'The Last of Us Part I',
+ 'Aventura de sobrevivência em um mundo pós-apocalíptico.',
+ 199.90, 'thelastofus1.jpg', 10),
+
+(3, 'The Last of Us Part II',
+ 'Continuação da história de sobrevivência.',
+ 199.90, 'thelastofus2.jpg', 10),
+
+(4, 'The Witcher 3',
+ 'RPG de fantasia com exploração e aventuras.',
+ 149.90, 'witcher3.jpg', 10);
